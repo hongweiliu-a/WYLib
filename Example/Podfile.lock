@@ -1,0 +1,16 @@
+PODS:
+  - WYLib (0.1.0)
+
+DEPENDENCIES:
+  - WYLib (from `../`)
+
+EXTERNAL SOURCES:
+  WYLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WYLib: 8c1feba496c8ad778c2d8e57b2e7e555976a58e6
+
+PODFILE CHECKSUM: 74d5ccc4bafd97cfb285eb1a0e10e6317c52309d
+
+COCOAPODS: 1.7.3
