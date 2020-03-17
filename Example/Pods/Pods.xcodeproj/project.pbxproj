@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		173340EFF363F7938C09A210E252D2FB /* Pods-WYLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16049CBA8384B3975AA42DC08B0CFB02 /* Pods-WYLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4840246C242077730058AD2D /* APCTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4840246A242077730058AD2D /* APCTableViewCell.h */; };
+		4840246D242077730058AD2D /* APCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4840246B242077730058AD2D /* APCTableViewCell.m */; };
 		87694ABC5F07450875D0ED8DBE626916 /* WYLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B048A1D5DED218F70FB91871319DC11C /* WYLib-dummy.m */; };
 		92A3D599E438644207314E847E898FA8 /* WYLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8098E9FEDF0715E89CA2B88397F8FD /* WYLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9529E631B4AF04176D951B6D6C9A6A60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -29,19 +31,21 @@
 /* Begin PBXFileReference section */
 		16049CBA8384B3975AA42DC08B0CFB02 /* Pods-WYLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		24E81F6014DF887B8BEB44D389A256FA /* Pods-WYLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYLib_Tests.modulemap"; sourceTree = "<group>"; };
-		2AFE11F457668B22135B602F6C9B53F3 /* WYLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WYLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2AFE11F457668B22135B602F6C9B53F3 /* WYLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WYLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		363FCF95F3CF442F74EB35C2A130DB1E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WYLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		593D5495ABA777B7494CA552DF36BD06 /* WYLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WYLib.framework; path = WYLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E871EB7B3F2A4A4C6112804D555730C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4840246A242077730058AD2D /* APCTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = APCTableViewCell.h; path = WYLib/Classes/APCTableViewCell.h; sourceTree = "<group>"; };
+		4840246B242077730058AD2D /* APCTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = APCTableViewCell.m; path = WYLib/Classes/APCTableViewCell.m; sourceTree = "<group>"; };
+		593D5495ABA777B7494CA552DF36BD06 /* WYLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WYLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E871EB7B3F2A4A4C6112804D555730C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		62DABC865D581179D2254C42744CBA45 /* WYLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WYLib-Info.plist"; sourceTree = "<group>"; };
 		758BF3594C6BB20C1F69554FCF32CD13 /* WYLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYLib.xcconfig; sourceTree = "<group>"; };
-		7A538962B3A9DCC3A6D259A2C478C304 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7A538962B3A9DCC3A6D259A2C478C304 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7A8D7C2444715825B3A80C0391D75DC3 /* WYLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYLib.modulemap; sourceTree = "<group>"; };
 		8866A3C92435AAB432FBBB4906C4F4D1 /* WYLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYLib-prefix.pch"; sourceTree = "<group>"; };
 		93E9C4ECF5CC1A64E948847F93F904C4 /* Pods-WYLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9C8098E9FEDF0715E89CA2B88397F8FD /* WYLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYLib-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E45B82354C1B64CEBDC2E06382C5708 /* Pods-WYLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9F215F78755BDF4F2A8DC98D4799E6D1 /* Pods-WYLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AD120476B840CA0125EC6C1093A1CF81 /* Pods-WYLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -49,7 +53,7 @@
 		B4774465055245CBAD6F43257181DB53 /* Pods-WYLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		B6FDD6A6D2A344D2AEA0CBED1C1B90E2 /* Pods-WYLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D1F855E033E3BB50F1D6E781E1652D03 /* Pods-WYLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		F21D5E4F1B2C73AD388F442B2B8BA817 /* Pods_WYLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYLib_Tests.framework; path = "Pods-WYLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21D5E4F1B2C73AD388F442B2B8BA817 /* Pods_WYLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				363FCF95F3CF442F74EB35C2A130DB1E /* ReplaceMe.m */,
+				4840246A242077730058AD2D /* APCTableViewCell.h */,
+				4840246B242077730058AD2D /* APCTableViewCell.m */,
 				8E4FEE0EF956F5A59697830094C2F483 /* Pod */,
 				C54F7FFFA299E566959237EBD54F39E8 /* Support Files */,
 			);
@@ -192,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				173340EFF363F7938C09A210E252D2FB /* Pods-WYLib_Tests-umbrella.h in Headers */,
+				4840246C242077730058AD2D /* APCTableViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4840246D242077730058AD2D /* APCTableViewCell.m in Sources */,
 				E7F33BB96A7E651494D18E997186D11C /* Pods-WYLib_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,8 +470,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
