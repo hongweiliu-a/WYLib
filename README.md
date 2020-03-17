@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WYLib
 
 [![CI Status](https://img.shields.io/travis/hongweiliu-a/WYLib.svg?style=flat)](https://travis-ci.org/hongweiliu-a/WYLib)
@@ -27,3 +28,6 @@ hongweiliu-a, hongwei.liu@shopee.com
 ## License
 
 WYLib is available under the MIT license. See the LICENSE file for more info.
+=======
+# WYLib
+>>>>>>> d6c5aff47600972e2a456dcc6683ed6e3d89917a
