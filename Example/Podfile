@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WYLib_Tests' do
+  pod 'WYLib', :path => '../'
+  
+  
+end
